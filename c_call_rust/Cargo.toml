@@ -1,0 +1,11 @@
+[package]
+name = "c-call-rust"
+version = "0.1.0"
+authors = ["WangRunji <wangrunji0408@163.com>"]
+
+# 指定生成静态链接库
+# 否则默认为Rust链接库 .rlib
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
